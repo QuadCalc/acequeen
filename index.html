@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungsi Kuadrat</title>
+    <title>Background Animasi</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- Link ke file CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.5.0/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="overlay">
+        <div id="explore-container">
+            <h1>Welcome to the Universe</h1>
+            <button id="explore-button">Explore</button>
+        </div>
+    </div>
+
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="aurora paused"></div>
+    <div class="floating-elements"></div>
+
+
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="logo" style="color: white;">Fungsi Kuadrat</div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#grafik">Grafik</a>
+            <a href="#anggota">Anggota</a>
+            <a href="#About Me">About Me</a>
+           
+    </nav>
+
+
+    <header class="header-paused" id="home">
+        <div class="header-content">
+            <h1 class="header-title">QuadCalc</h1>
+            <h2 class="header-subtitle">Fungsi Kuadrat</h2>
+            <p class="header-quote">"Belajar dan pahami tentang fungsi kuadrat, grafik, dan kalkulasinya."</p>
+            <div class="header-info">
+                <h3 class="info-title">Apa itu Fungsi Kuadrat?</h3>
+                <p>
+                    Fungsi kuadrat adalah persamaan matematika berbentuk <b>f(x) = ax² + bx + c</b>, di mana <b>a</b>, <b>b</b>, dan <b>c</b> adalah konstanta, serta <b>a ≠ 0</b>. Grafik fungsi ini berbentuk parabola, yang:
+                </p>
+                <ul>
+                    <li><b>Titik Puncak (Vertex):</b> Titik tertinggi atau terendah dari parabola.</li>
+                    <li><b>Sumbu Simetri:</b> Garis vertikal yang membagi parabola menjadi dua bagian simetris.</li>
+                    <li><b>Akar-Akar:</b> Nilai <b>x</b> yang membuat <b>f(x) = 0</b>.</li>
+                </ul>
+                <p>
+                    Fungsi kuadrat sering digunakan dalam berbagai bidang, seperti <b>fisika</b>, <b>ekonomi</b>, dan <b>teknik</b> untuk memodelkan peristiwa berbentuk parabola.
+                </p>
+            </div>
+        </div>
+    </header>
+    
+    
+    
+</header>
+
+
+    <!-- Penjelasan Fungsi Kuadrat -->
+    <section id="fungsi-kuadrat">
+        <h2>Materi Fungsi Kuadrat</h2>
+        <h3>Pengertian</h3>
+        <p>Fungsi kuadrat adalah fungsi matematika berbentuk polinomial yang memiliki variabel berpangkat dua sebagai pangkat tertingginya. Bentuk umum dari fungsi kuadrat adalah:</p>
+        <p><b>f(x) = ax² + bx + c</b></p>
+        <p>Di mana:</p>
+        <ul>
+            <li><b>a, b, c:</b> Konstanta (a ≠ 0)</li>
+            <li><b>x:</b> Variabel bebas</li>
+        </ul>
+        <h3>Ciri-Ciri Fungsi Kuadrat</h3>
+        <ul>
+            <li><b>Bentuk Parabola:</b> Grafik fungsi kuadrat selalu berupa parabola. Jika a > 0, parabola terbuka ke atas; jika a < 0, parabola terbuka ke bawah.</li>
+            <li><b>Titik Puncak:</b> Titik tertinggi atau terendah dari parabola.</li>
+            <li><b>Sumbu Simetri:</b> Garis vertikal yang membagi parabola menjadi dua bagian yang simetris.</li>
+            <li><b>Akar-Akar:</b> Nilai x yang membuat f(x) = 0 (jika ada).</li>
+            <li><b>Titik Potong Sumbu Y:</b> Titik di mana parabola memotong sumbu y, yaitu f(0) = c.</li>
+        </ul>
+        <h3>Rumus Penting</h3>
+        <ul>
+            <li><b>Titik Puncak:</b> ( x = -b / 2a )</li>
+            <li><b>Diskriminan:</b> ( D = b² - 4ac )</li>
+            <li><b>Rumus Kuadrat:</b> ( x = (-b ± √D) / 2a )</li>
+        </ul>
+            <h2>Contoh Soal dan Penyelesaian Fungsi Kuadrat</h2>
+            <p>Selesaikan persamaan kuadrat berikut:</p>
+            <p><b>f(x) = x² + 3x + 2</b></p>
+            
+            <h3>Penyelesaian</h3>
+            <ol>
+                <li>
+                    <b>Hitung diskriminan (D):</b>
+                    <p>D = b² - 4ac</p>
+                    <p>D = 3² - 4 * 1 * 2</p>
+                    <p>D = 9 - 8 = 1</p>
+                </li>
+                <li>
+                    <b>Titik balik (vertex):</b>
+                    <p>x = -b / 2a = -3 / (2 * 1) = -1.50</p>
+                    <p>y = f(-1.5) = (-1.5)² + 3(-1.5) + 2 = -0.25</p>
+                    <p>Titik balik adalah (-1.50, -0.25)</p>
+                </li>
+                <li>
+                    <b>Cari akar-akar persamaan:</b>
+                    <ul>
+                        <li>x₁ = (-b + √D) / 2a = (-3 + √1) / 2 = -1.00</li>
+                        <li>x₂ = (-b - √D) / 2a = (-3 - √1) / 2 = -2.00</li>
+                    </ul>
+                </li>
+            </ol>
+            <p><b>Kesimpulan:</b> Akar-akar persamaan adalah x₁ = -1.00 dan x₂ = -2.00.</p>
+        </section>
+        
+    
+      
+
+     
+
+<section id="grafik">
+<div class="form-container2">
+    <label>Fungsi f(x): <input type="text" id="functionInput" value="x^2 + 3x + 2" size="20"></label>
+    <button class="button" onclick="drawGraph()">Gambar Grafik</button>
+  </div>
+  <div id="result" class="result-box" style="display: block;"></div>
+  <div class="form-container3">
+  <!-- Elemen Canvas untuk menggambar grafik -->
+  <canvas id="grafikCanvas" width="500" height="500"></canvas>
+
+
+
+
+  <!-- Tempat untuk menampilkan koordinat -->
+</div>
+
+<div id="coordinates" style="text-align: center;">Koordinat: (x: -, y: -)</div>
+</section>
+  
+    <!-- Anggota Tim -->
+<section id="anggota">
+    <h2>Anggota Tim</h2>
+    <div class="team-members">
+        <!-- Anggota 1 -->
+        <div class="member">
+            <img src="image/faisal.png" alt="Faisal Fadillah Al Ghifari" class="member-photo">
+            <p class="member-name">Faisal Fadillah Al Ghifari</p>
+            <p class="member-npm">NPM: 247006111123</p>
+        </div>
+        <!-- Anggota 2 -->
+        <div class="member">
+            <img src="image/reza.png" alt="Reza Pahri Fauzi" class="member-photo">
+            <p class="member-name">Reza Pahri Fauzi</p>
+            <p class="member-npm">NPM: 247006111124</p>
+        </div>
+        <!-- Anggota 3 -->
+        <div class="member">
+            <img src="image/adil.png" alt="Achmad Adil Arasy Darmawan" class="member-photo">
+            <p class="member-name">Achmad Adil Arasy Darmawan</p>
+            <p class="member-npm">NPM: 247006111128</p>
+        </div>
+        <!-- Anggota 4 -->
+        <div class="member">
+            <img src="image/ripki.png" alt="Ripki Maulana" class="member-photo">
+            <p class="member-name">Ripki Maulana</p>
+            <p class="member-npm">NPM: 247006111139</p>
+        </div>
+        <!-- Anggota 5 -->
+        <div class="member">
+            <img src="image/fadli.png" alt="Fadhli Fajriel Habibie" class="member-photo">
+            <p class="member-name">Fadhli Fajrial Habibie</p>
+            <p class="member-npm">NPM: 247006111142</p>
+        </div>
+    </div>
+
+</section>
+<section id="about-me">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <!-- Logo dan Deskripsi -->
+            <img src="image/unsil.png" alt="Logo Universitas" class="about-logo">
+            <img src="image/quadcalc.png" alt="QuadCalc Logo" class="about-logo">
+            <p>QuadCalc adalah aplikasi interaktif untuk mempelajari fungsi kuadrat. Dikembangkan oleh mahasiswa Universitas Siliwangi dengan tujuan mendukung pembelajaran matematika yang mudah dan menyenangkan.</p>
+        </div>
+
+        <!-- Instagram Anggota -->
+        <h3>Instagram Anggota</h3>
+        <div class="team-instagram">
+            <div class="team-member">
+                <p><b>Faisal Fadillah Al Ghifari</b></p>
+                <a href="https://instagram.com/faisal_username" target="_blank">@faisal_username</a>
+            </div>
+            <div class="team-member">
+                <p><b>Reza Pahri Fauzi</b></p>
+                <a href="https://instagram.com/reza_username" target="_blank">@reza_username</a>
+            </div>
+            <div class="team-member">
+                <p><b>Achmad Adil Arasy Darmawan</b></p>
+                <a href="https://instagram.com/adil_username" target="_blank">@adil_username</a>
+            </div>
+            <div class="team-member">
+                <p><b>Ripki Maulana</b></p>
+                <a href="https://instagram.com/rifkimaulana774" target="_blank">@rifkimaulana774</a>
+            </div>
+            <div class="team-member">
+                <p><b>Fadhli Fajrial Habibie</b></p>
+                <a href="https://instagram.com/fadhli_username" target="_blank">@fadhli_username</a>
+            </div>
+        </div>
+
+        <!-- Contact Person -->
+        <div class="contact-person">
+            <h3>Contact Person</h3>
+            <p><b>Email:</b> <a href="mailto:cuadratcalc@gmail.com">cuadratcalc@gmail.com"</a></p>
+          
+        </div>
+
+        
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Fungsi Kuadrat. All rights reserved.</p>
+    </footer>
+    <script src="script.js" defer></script> <!-- Tunda pemuatan script.js -->
+</html>
